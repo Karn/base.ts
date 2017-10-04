@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "removeComments": true,
+        "declaration": true,
+        "outDir": "./../bin",
+        "alwaysStrict": true
+    },
+    "include": [
+        "./../src/**/*.ts"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "untitled",
+  "version": "0.0.0",
+  "main": "./bin/Index.ts",
+  "scripts": {
+    "lint": "tslint -c ./build_tools/tslint.json -p ./build_tools/tsconfig.json --type-check ./lib/**/*.ts",
+    "build": "yarn lint && tsc -p ./build_tools/"
+  },
+  "devDependencies": {
+    "tslint": "^5.7.0",
+    "typescript": "^2.4.1"
+  }
+}
