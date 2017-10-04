@@ -7,7 +7,8 @@ An empty NodeJS application with a minimal TypeScript toolchain.
 The goal is to use the least amount of 3rd party libraries to begin using TypeScript.
 
 First things first, run the `npm install` or `yarn install` command. This will install TypeScript and TSLint.
-You can then being writing code within the `src` folder. When you are ready to build simply run 'npm build' or `yarn build`. This process with lint and transpile your TypeScript code into JavaScript under the 'bin'.
+
+You can then being writing code within the `src` folder. When you are ready to build simply run `npm build` or `yarn build`. This process with lint and transpile your TypeScript code into JavaScript under the 'bin'.
 
 
 ###### LICENSE
