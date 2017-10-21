@@ -8,21 +8,20 @@ The goal is to use the least amount of 3rd party libraries to begin using TypeSc
 
 You can start by doing a headless clone (a fork without actually forking). I.e copy the files from this repo into a local folder. This can be done via the following.
 ```sh
-# Create a copy of this repository.
-git clone --mirror https://github.com/Karn/base.ts.git
+# Clone this repository.
+git clone https://github.com/Karn/base.ts.git [DIRECTORY_NAME]
 
-# Remove the tracking to this repo.
-git remote rm origin
-# Add the new tracked repo.
-git remote add origin https://github.com/exampleuser/repo-name.git
-
-# Update this branch to push and track the master branch.
-git push -u origin master
+# Navigate into cloned repository.
+cd [DIRECTORY_NAME]
+# Remove reference to this repository.
+rm -R .git/
+# Reinitialize as a new git repository.
+git init
 ``` 
 
 First things first, run the `npm install` or `yarn install` command. This will install TypeScript and TSLint.
 
-You can then being writing code within the `src` folder. When you are ready to build simply run `npm build` or `yarn build`. This process with lint and transpile your TypeScript code into JavaScript under the 'bin'.
+You can then being writing code within the `src` folder. When you are ready to build simply run `npm build` or `yarn build`. This process with lint and transpile your TypeScript code into JavaScript under the `bin` folder.
 
 
 ###### LICENSE
